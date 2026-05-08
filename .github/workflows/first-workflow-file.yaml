@@ -1,9 +1,10 @@
 name: static-code-analysis-workflow
 on: workflow_dispatch
 jobs:
- first-job:
+ firstjob:
    runs-on: ubuntu-latest
    steps:
-     - name: printing
-     - run: echo "hi"
+    - name: download
+      uses: actions/checkout@v3
+
      
