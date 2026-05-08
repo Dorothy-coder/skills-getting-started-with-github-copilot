@@ -1,10 +1,9 @@
-
 name: static-code-analysis-workflow
 on: workflow_dispatch
 jobs:
  first-job:
    runs-on: ubuntu-latest
    steps:
-     - name: printing-hi
+     - name: printing
      - run: echo "hi"
      
